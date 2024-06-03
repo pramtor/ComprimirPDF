@@ -19,8 +19,8 @@ import os
 
 # En primer lugar definiremos las variables
 
-nombre_pdf = "ArchivoPrueba.pdf"
-nombre_pdf_comprimido = "PdfComprimido.pdf"
+nombre_pdf = "pdfOriginal.pdf"
+nombre_pdf_comprimido = "pdfComprimido.pdf"
 nombre_pdf_sin_extension = Path(nombre_pdf).stem
 escala = 1 # Escala para convertir PDF a imagen. Hay que tener cuidado porque también afecta a las imágenes
 
